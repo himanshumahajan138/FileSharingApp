@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
 
 # Copy your JAR file into the container
-COPY target/fileSharingManagement-0.0.1-SNAPSHOT.jar app.jar
+COPY fileSharingManagement-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the port your application uses
 EXPOSE 8080
